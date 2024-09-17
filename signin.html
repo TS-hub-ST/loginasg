@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burma Link Channel Sign In</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left {
+            width: 50%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .branding{
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .mobile-mockup {
+            border-radius: 20px;
+            padding: 20px;
+            position: relative;
+            width: 300px;
+            height: 500px;
+        }
+
+        .right{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        .login-box {
+            background-color: #0c0c3d;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border-color: aliceblue;
+            border-radius: 5px;
+            background-color: #0c0c3d;
+            font-size: 16px;
+        }
+
+        input[type="checkbox"] {
+            background-color: #0c0c3d;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #6363f5;
+            padding: 10px 20px;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #5151d4;
+    
+        }
+
+        .forgot-password {
+            display: block;
+            margin-top: 15px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(15, 19, 73);">
+    <div class="container" >
+        <div class="left">
+            <div class="branding">
+                <img src="Burma Link logo.png" alt="Burma Link Channel Logo" style="width: 150px; margin-right: 20px;" class="logo">
+                <h1 style="font-size: 50px; color: #fff; font-style: normal;">Burma Link Channel</h1>
+            </div>
+            
+            <div class="mobile-mockup">
+                <img src="undraw_access_account_re_8spm.svg" alt="User Interface">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="login-box">
+                <h2>Admin Sign In</h2>
+                <form>
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <button type="submit">Sign In</button>
+                </form>
+                <a href="#" class="forgot-password">Forget Password</a>
+            </div>
+        </div>
+
+        
+         
+    </div>
+    
+</body>
+</html>
